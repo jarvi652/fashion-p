@@ -33,16 +33,47 @@ li{
     padding:.0.3rem 1rem;
     word-spacing: 10rem;
 }
+.container-2{
+    position: relative;
+}
+.content-1 img{
+    position: absolute;
+}
 .content-1{
     background-color: #212529;
     display: flex;
     flex-direction:column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around; 
 }
 
 .supreme{
     font-size: 288px;
     color: #EDC4B3;
+    padding-top:16rem;  
+}
+.container-3{
+    background-color: #CCC5B9;
+    color:#212529;
+}
+.container-3 h2{
+    padding:1rem 0 5rem 6rem;
+}
+.container-3 .row{
+    margin:2rem 0  5rem 6rem;
+}
+.container-3 h1{
+    color: #DA1E37;
+    font-size: 288px;
+    font-weight: 600px;
+}
+.container-3 h6{
+    font-weight: 600px;
+}
+.container-3 .col-8{
+    text-align: left;
+    word-wrap: none;
+    padding-top:2rem;
+    margin-top: 3rem;
     
 }
