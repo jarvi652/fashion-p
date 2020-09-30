@@ -23,15 +23,18 @@
 .ul{
     color: #EDC4B3;
     overflow: hidden;
-    
+    padding:.0.3rem  0 1rem;
     width: 100%;
 }
 li{
     display: inline;
+    margin-right: 15px;
+    
 }
 .a{
-    padding:.0.3rem 1rem;
-    word-spacing: 10rem;
+    
+    word-spacing: 5rem;
+    margin:1rem;
 }
 .container-2{
     position: relative;
@@ -50,11 +53,12 @@ li{
 .supreme{
     font-size: 288px;
     color: #EDC4B3;
-    padding-top:16rem;  
+    padding-top:16.5rem;  
 }
 .container-3{
     background-color: #CCC5B9;
     color:#212529;
+    position: relative;
 }
 .container-3 h2{
     padding:1rem 0 5rem 6rem;
@@ -67,7 +71,7 @@ li{
     font-size: 288px;
     font-weight: 600px;
 }
-.container-3 h6{
+.container-3 .col-8 h6{
     font-weight: 600px;
 }
 .container-3 .col-8{
@@ -75,5 +79,26 @@ li{
     word-wrap: none;
     padding-top:2rem;
     margin-top: 3rem;
+    padding-bottom: 0;
     
 }
+.container-4{
+    background-color: #F4F1DE;
+    display: flex;
+    flex-direction: column;
+}
+.content-2{
+    justify-content: space-around;
+    align-items: left;
+    
+}
+.content-2 h1{
+    font-size: 96px;
+    color:#212529;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+.content-2 img{
+    position: absolute;
+}
+
